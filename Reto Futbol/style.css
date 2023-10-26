@@ -1,0 +1,68 @@
+/* Estilo para el menú desplegable */
+.navbar {
+  overflow: hidden;
+  background-color: #4f9e3f;
+  padding: 0 400px 0 400px;
+  height: 70px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #29cf29;
+  color: black;
+}
+
+/* Estilo para el menú desplegable */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a, .desplegable a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.desplegable {
+  display: none;
+  position: absolute;
+  background-color: #4f9e3f; /* Cambia el color del desplegable al mismo color del navbar */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.desplegable a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.desplegable a:hover {
+  background-color: #29cf29; /* Cambia el color del desplegable al mismo color del navbar al pasar el ratón por encima */
+}
+
+.dropdown:hover .desplegable {
+  display: block;
+}
