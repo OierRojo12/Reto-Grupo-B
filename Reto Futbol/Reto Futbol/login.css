@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between; /* Añadir espacio entre los botones */
+}
+
+.tabs button {
+    flex: 1;
+    padding: 10px;
+    background-color: #391B10;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Agregar margen entre los botones */
+}
+
+
+.tabs button.active {
+    background-color: #391B10;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #391B10;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #391B10;
+}
+
+.message {
+    color: red;
+}
+
+#register-form {
+    display: none;
+}
+
+
+/* Estilo para el menú desplegable */
+.navbar {
+  background-color: rgb(41, 41, 41);
+
+  padding: 0 40px 0 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  padding: 0 0 0 90px;
+}
+
+.logo p {
+  background: linear-gradient(to right, #0bbdea, #d21191);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  padding: 13px 0px 0 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+
+}
+
+.login {
+  color: white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+
+  box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
+  border-radius: 10%;
+
+
+}
+
+.navbar a:hover {
+  background-color: #9b5bf5;
+
+  color: black;
+  border-radius: 10%;
+}
+
+.loginbg{
+background-color: black;
+
+}
+/* Estilos para la sección de comentarios y opiniones */
+.comentarios {
+  text-align: center;
+}
+
+#comentarios-lista {
+  margin: 20px;
+}
+
+#comentario-form {
+  margin: 20px;
+  text-align: left;
+}
+
+.comentario {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+  
